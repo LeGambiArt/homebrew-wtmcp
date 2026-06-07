@@ -2,6 +2,8 @@ class Wtmcp < Formula
   desc "MCP server with plugin-based integrations for developer tools"
   homepage "https://github.com/LeGambiArt/wtmcp"
   license "GPL-3.0-only"
+  url "https://github.com/LeGambiArt/wtmcp/archive/refs/tags/v0.1.7.tar.gz"
+  sha256 "318672df9d3a3fb0c4e0a351a4a2250d05f515c0c8097ca57d89c049d8fc21d5"
   head "https://github.com/LeGambiArt/wtmcp.git", branch: "main"
 
   depends_on "go" => :build

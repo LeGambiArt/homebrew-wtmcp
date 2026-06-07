@@ -54,6 +54,17 @@ class Wtmcp < Formula
 
       Configure credentials in:
         ~/.config/wtmcp/env.d/
+
+      User plugins can be installed to:
+        ~/.config/wtmcp/plugins/
+
+      User plugins are disabled by default. To enable them, run:
+        wtmcpctl plugins user-plugins enable
+
+      To configure the MCP server for an agent in the current directory, run:
+        wtmcpctl agent enable <agent>
+
+      Supported agents: claude-code, gemini, cursor.
     EOS
   end
 

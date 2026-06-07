@@ -33,7 +33,7 @@ class Wtmcp < Formula
     end
 
     Dir.glob("plugins/*/plugin.yaml").each do |yaml_path|
-      plugin_dir = File.dirname(yaml_path)
+      plugin_dir = Pathname.new(File.dirname(yaml_path))
       plugin_name = File.basename(plugin_dir)
       next if plugin_name.start_with?("_")
 

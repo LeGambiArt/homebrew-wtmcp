@@ -1,0 +1,9 @@
+# AI agents data
+AGENTS.md
+CLAUDE.md
+/.agents/
+/.claude/
+/.gemini/
+/.openclaw/
+/.opencode/
+.mcp.json
